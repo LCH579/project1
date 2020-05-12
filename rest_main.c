@@ -196,7 +196,7 @@ void load_file(){
             printf("[Load] There is no space!\n");
             break;
         }
-        int n = fscanf(f,"%s %d %d %d %d %f",name,&ty, &tat,&mon,&atm,&avg);
+        int n = fscanf(f,"%s %f %f %f %f %f",name,&ty, &tat,&mon,&atm,&avg);
         if (n<5) break;
         if(r_search_by_name(name)) {
             printf("[Load] Duplicated name(%s)! loading.\n", name);
