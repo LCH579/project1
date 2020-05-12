@@ -189,7 +189,7 @@ void load_file(){
 
     FILE* f = fopen("members.txt", "r");
     char name[100];
-    int ty,mon,atm,tat;
+    float  ty,mon,atm,tat;
     float  avg;
     while(!feof(f)){
         if(!r_is_available()) {
@@ -255,7 +255,8 @@ void search_avg(){
 }
 void update_record(){
     char name[100];
-    int ty, tat,mon,atm;
+    int   ty;
+	float  tat,mon,atm;
     float  avg;
     
     printf("Enter a name > ");
