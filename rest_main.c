@@ -147,7 +147,7 @@ void read_record(){
                 printf("Atmosphere :%d\n", r_getatm(p));
                 printf("average :%.1f\n", r_getavg(p));
                 printf("Star score >> ");
-                for (int j=0 ; j<r_getavg(p) ; j++)
+                for (int j=1 ; j<r_getavg(p) ; j++)
                     printf("🌟");
                 break;
 
