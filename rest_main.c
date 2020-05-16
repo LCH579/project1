@@ -345,7 +345,7 @@ void delete_byavg(){
 void op(){
 	
 	r_optimize();
-	printf("Optimized!");
+	printf("Optimized!\n");
  
 }
 void sort_avg(){
