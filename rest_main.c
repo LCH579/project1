@@ -1,5 +1,5 @@
 #include "restaurant.h"
-
+//hi
 void create_record();//완료
 void read_record();//완료
 void update_record();//완료
