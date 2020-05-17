@@ -13,6 +13,7 @@ void save_file();//완료
 void op();//완료
 void sort_avg();
 
+
     int main(){
     r_init();
         int menu;
@@ -123,7 +124,6 @@ void create_record(){
         }
 void read_record(){
         char name[100];
-
         while(1){
         printf("Name? > ");
         scanf("%s",name);
@@ -254,6 +254,7 @@ void search_avg(){
 }
 void update_record(){
     char name[100];
+    char name[100];
     int   ty;
 	float  tat,mon,atm;
     float  avg;
@@ -345,11 +346,11 @@ void delete_byavg(){
 void op(){
 	
 	r_optimize();
-	printf("Optimized!\n");
+	printf("Optimized!");
  
 }
 void sort_avg(){
 	r_optimize();
 	r_sort();
-	printf("Sorted!\n");
+	printf("Sorted!");
 }                                                                                                                        
