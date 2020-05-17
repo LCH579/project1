@@ -11,7 +11,7 @@ void search_avg();//완료
 void load_file();//완료
 void save_file();//완료
 void op();//완료
-void sort_avg();//완료
+void sort_avg();
 
     int main(){
     r_init();
