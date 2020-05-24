@@ -254,7 +254,7 @@ void search_avg(){
 }
 void update_record(){
     char name[100];
-    char name[100];
+
     int   ty;
 	float  tat,mon,atm;
     float  avg;
