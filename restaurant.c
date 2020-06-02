@@ -1,6 +1,6 @@
 #include "restaurant.h"
 //#define DEBUG
-//hi
+
 T_Record* members[MAX_MEMBERS];
 int _count = 0;
 
